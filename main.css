@@ -1,0 +1,39 @@
+body
+{
+    background-color:#02192e ;
+}
+.container
+{
+    margin:0;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.btn
+{
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border:none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom:20px;
+    padding-top: 20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#03e9f4;
+    background-color:#04223f ;
+    overflow: hidden;
+    transition: ease-in-out 1s;
+}
+.btn:hover
+{
+    
+    color:rgb(5, 8, 27);
+    background-color: #03e9f4;
+    box-shadow:0 0 5px #03e9f4;
+    box-shadow:0 0 25px #03e9f4;
+    box-shadow:0 0 50px #03e9f4;
+    box-shadow:0 0 100px #03e9f4;
+}
